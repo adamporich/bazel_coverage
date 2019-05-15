@@ -1,0 +1,3 @@
+build --experimental_docker_image=gcc:6
+build --experimental_enable_docker_sandbox 
+build --spawn_strategy=docker
